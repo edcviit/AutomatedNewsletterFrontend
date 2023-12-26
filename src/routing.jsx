@@ -10,7 +10,7 @@ const Routing = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<App/ >} />
+        <Route path="/" element={<ViewNewsletters />} />
         <Route path="/addNewsletter" element={<AddNewsletterForm />} />
         <Route path="/viewNewsletters" element={<ViewNewsletters />} />
         <Route
