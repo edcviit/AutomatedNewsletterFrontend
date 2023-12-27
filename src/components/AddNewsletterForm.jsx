@@ -43,7 +43,7 @@ const AddNewsletterForm = () => {
     console.log(data);
     fetch(
       // "http://localhost:3001/admin/addNewsletter",
-      "https://automatednewsletter-production.up.railway.app//admin/addNewsletter",
+      "https://automatednewsletter-production.up.railway.app/admin/addNewsletter",
       {
         method: "POST",
         headers: {
